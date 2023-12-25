@@ -1,13 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Valbabaw - Website</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-</head>
-<body>
-    <h1>Welcome on my Website !</h1>
-</body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css"> 
+  </head>
+  <body id="mainPage">
+    <nav class="navbar navbar-expand-sm bg-white navbar-black">
+      <!-- Brand/logo -->
+      <a class="navbar-brand" href="./index.html"> <img src="./assets/Logo.png" width="80" height="80" class="img-fluid" alt="ValbabawPicture"> </a>
+      
+      <!-- Links -->
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav col text-center justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link links" href="./pages/travels.html"><h5>Voyages</h5></a>
+          </li>
+        </ul>
+        <ul class="navbar-nav col text-center justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link links" href="#"><h5>Projets</h5></a>
+          </li>
+        </ul>
+        <ul class="navbar-nav col text-center justify-content-start">
+          <li class="nav-item">
+            <a class="nav-link links" href="#"><h5>Jeux</h5></a>
+          </li>
+        </ul>
+        <ul class="navbar-nav col text-center justify-content-end">
+          <li class="nav-item">
+            <a class="navbar-brand" href="https://www.instagram.com/val17.4/"> <img src="./assets/icons/instagram.png" width="30" class="img-fluid" alt="ValbabawPicture"> </a>
+            <a class="navbar-brand" href="https://www.linkedin.com/in/valerio-walbert-52750b265"> <img src="./assets/icons/linkedin.png" width="30" class="img-fluid" alt="ValbabawPicture"> </a>
+            <a class="navbar-brand" href="https://github.com/Valerio-W"> <img src="./assets/icons/github.png" width="30" class="img-fluid" alt="ValbabawPicture"> </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div id="picturesSection">
+      <div class="row">
+        <div class="col-md-4">
+            <img src="/assets/HomePicture2.jpg" alt="Picture1" class="portrait-photo">
+        </div>
+        <div class="col-md-4">
+          <img src="/assets/Valbabaw2.jpg" alt="Picture2" width="450" class="img-flui portrait-photo" alt="ValbabawPicture">
+          <h1 class="pictureTitle">Bienvenue à tous sur mon site !</h1>
+        </div>
+        <div class="col-md-4">
+            <img src="/assets/HomePicture4.jpg" alt="Picture3" class="portrait-photo">
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid my-5 pl-4 text-black">
+      <div class="row">
+        <div class="col-sm-6 p-6 shadow-lg p-4 mb-4 rounded-3 bg-white border pictureTitle">
+          Hello à tous et bienvenue sur mon site !
+          Je suis un développeur junior passionné par le code et les nouvelles technologies. 
+          Entre deux lignes de code, je me plonge dans l'univers des jeux vidéo, des films et séries, 
+          tout en suivant le manga le plus célèbre du monde, One Piece !
+          Amoureux du cinéma et curieux de nature, j'aime aussi explorer le monde à travers les voyages. 
+          Ce site est le reflet de ma vie entre photos et autres, où je partage mes projets et découvertes. 
+          N'hésitez pas à venir découvrir tout cela !
+        </div>
+        <div class="col-sm-6 mx-auto">
+          <div class="col-sm-6 mx-auto">
+            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-mdb-interval="false">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="/assets/travles_miniature.jpg" class="d-block w-100 c-img" alt="travels_miniature">
+                  <a href="/pages/travels.html">  
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Voyages</h5>
+                    </div>
+                  </a>
+                </div>
+                <div class="carousel-item">
+                  <img src="/assets/projectsminiature.jpg" class="d-block w-100 c-img" alt="projects_miniature">
+                  <a href="/pages/projects.html">  
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Projets</h5>
+                    </div>	
+                  </a>
+                </div>
+                <div class="carousel-item">
+                  <img src="/assets/games_miniature.jpg" class="d-block w-100 c-img" alt="games_miniature">
+                  <a href="/pages/games.html">  
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Jeux</h5>
+                    </div>	
+                  </a>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div> 
+          </div>
+        </div>
+      </div> 
+    </div>
+  </div>
+    <footer> <small>&copy; Copyright 2023, Valbabaw. All rights reserved</small></footer> 
+  </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

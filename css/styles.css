@@ -1,0 +1,61 @@
+*{
+}
+#mainPage{
+}
+.pl-4{
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-bottom: 50px;
+    padding-right: 30px;
+}
+.links{
+    font-family: 'Hedvig Letters Serif', serif;
+    color:rgb(3, 21, 3);
+    padding: 10px;
+    margin: 10px;
+}
+.c-item{
+    height: 480px;
+}
+.c-img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+.portrait-photo {
+    width: 100%;
+    max-width: 100%; /* La largeur maximale prendra toute la largeur disponible */
+    height: auto; /* Garantit que la hauteur s'ajuste proportionnellement à la largeur */
+    margin-bottom: 20px;
+}
+.pictureTitle{
+    justify-content: center;
+    align-items: center;
+    font-family: 'Yeseva One','Helvetica', serif;
+}
+.logo {
+    width: 10px; /* Ajustez la largeur du logo selon vos besoins */
+}
+
+.navbar-custom {
+    width: 100%; /* Définir la largeur de la barre de navigation selon vos besoins */
+    max-width: 1200px;  
+    margin: 0 auto; /* Centrer la barre de navigation */
+}
+
+#picturesSection {
+    background-color: burlywood;
+    width: 100%;
+    padding: 100px;
+}
+
+
+/*************** FOOTER ***************/
+footer{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: burlywood;
+    font-family: 'Yeseva One', 'Helvetica', serif;
+}
